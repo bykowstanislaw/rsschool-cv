@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@700&display=swap');
+
+.cv-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.menu-item{
+    font-size: 26px;
+
+
+}

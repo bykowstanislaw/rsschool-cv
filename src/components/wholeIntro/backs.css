@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@700&display=swap');
+html {
+    scroll-behavior: smooth;
+    }
+aside{
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.left-contacts{
+    margin-top: 50px;
+  
+}
+.contacts-name{
+    font-weight: 700px;
+    font-size:25px;
+    font-style:normal;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgrey;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+}
+.contact-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    cursor: pointer;
+}
+.part-left{
+    background-color: dimgray;
+}
+.cv-info{
+    padding: 50px;
+    padding-bottom: 0px;
+}
+.left-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-name{
+    font-weight: 700px;
+    font-size:25px;
+    font-style:normal;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgrey
+}
+.quan-stars{
+    display: flex;
+    justify-content: flex-start;
+}
+.skill-name{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.it{
+    font-style: italic;
+}
+.grey{
+    color:grey
+}
+.branches{
+    margin-top: 40px;
+}
+.branch-name{
+    margin-top: 60px;
+    border-bottom: 2px solid lightgrey;
+}
+.works-sample{
+    display: flex;
+
+}
+.works-prescreen{
+    margin-top: 20px;
+    width: 220px;
+    height: 125px;
+}
+.workname{
+    margin-bottom: 5px;
+}
+.language{
+    margin-left: 10px;
+}
+.stack-tech{
+    color: dimgray;
+    font-size: 20px;
+    padding-right: 7px;
+    
+}
+.cv-info{
+    border-right: 1px solid dimgray;
+}
+
+.df{
+    display: flex;    
+}
+footer{
+    padding: 0;
+}
+.info__rs{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: baseline;
+    margin-top: 130px;
+
+}
+.info__gh{
+    width: 50px;
+    height: 50px;
+}
+.rs-school{
+    width: 70px;
+    height: 70px;
+}

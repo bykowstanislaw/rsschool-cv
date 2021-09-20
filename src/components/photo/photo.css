@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@700&display=swap');
+
+.photo{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    padding-top: 10PX;
+    
+  }
+.cv-name{
+  font-family: "Inter",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 130%;
+  color: #000;
+  
+  
+}
+.lang-tittle{
+  display: flex;
+  align-items: center;
+}
+.flag{
+  width: 20px;
+  height: 20px;
+}
