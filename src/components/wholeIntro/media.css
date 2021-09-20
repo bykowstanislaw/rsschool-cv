@@ -1,0 +1,92 @@
+        @media (min-width: 1200px) {}
+
+        /* Landscape tablets and medium desktops */
+        @media (min-width: 992px) and (max-width: 1199px) {}
+
+        /* Portrait tablets and small desktops */
+        @media (min-width: 768px) and (max-width: 991px) {}
+
+        /* Landscape phones and portrait tablets */
+        @media (max-width: 630px) {
+            aside{width:150px;
+            }
+            .cl{
+                font-size: 8px;
+            }
+            .photo{
+                width: 100px;
+                height: 100px;
+            }
+            .icon{
+                width: 25px;
+                height: 25px;
+            }
+            .skills-name{
+                font-size: 14px;
+            }
+            .star{
+                width: 13px;
+                height: 13px;
+            }
+        }
+
+        /* Portrait phones and smaller */
+        @media (max-width: 499px) {
+            .cl{
+                visibility: hidden;
+            }
+            .contacts-name{
+                font-size:14px;
+                margin-left: 10px;
+            }
+            .icon{
+                margin-left: 30px;
+            }
+            .photo{
+                width: 80;
+                height: 80px;
+                padding: 10px;
+            }
+            .skills-name{
+                font-size: 10px;
+                margin-left: 10px;
+            }
+            .star{
+                width: 7px;
+                height: 7px;
+            }
+            .cv-info{
+                position: relative;
+                width: 150px;
+                padding-left: 20px;
+                border-right: none;
+        }
+        .techno{
+            font-size: 10px;
+            margin-left: 10px;
+        }
+        .works-prescreen{
+            width: 180px;
+            height: 100px;
+        }
+        .menu__btn{
+            visibility:visible;
+            position: absolute;
+            left: 205px;;
+
+            }
+            .rs-school{
+                width: 40px;
+                height: 40px;
+            }
+            .info__gh{
+                width: 20px;
+                height: 20px;
+            }
+        
+        
+        
+        }
+        
+            
+        
